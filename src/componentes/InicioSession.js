@@ -19,7 +19,7 @@ import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 import { auth } from "./../firebase/firebaseConfig";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
-
+import Alerta from './../elementos/Alerta';
 
 
 const Svg = styled(SvgLogin)`
@@ -94,8 +94,8 @@ const handleChange = (e) => {
       }
       cambiarEstadoAlerta(true)
       cambiarAlerta({tipo:"error", mensaje:mensaje});
-      console.log(errorCode , error.code);
-      // ..
+      //console.log(errorCode , error.code);
+      
     });   
   };
 
@@ -127,6 +127,12 @@ return (
           </Boton>
         </ContenedorBoton>
       </Formulario>
+      <Alerta
+      tipo={alerta.tipo}
+      mensaje={alerta.mensaje}
+      estadoAlerta={estadoAlerta}
+      cambiarEstadoAlerta={cambiarEstadoAlerta}
+/>
     </>
   );
 };

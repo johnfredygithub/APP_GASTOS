@@ -54,7 +54,7 @@ const Input = styled.input`
 `;
 
 const InputGrande = styled(Input)`
-  font-size: 2.37rem; /* 70px */
+  font-size: 3.37rem; /* 70px */
   font-weight: bold;
 `;
 
