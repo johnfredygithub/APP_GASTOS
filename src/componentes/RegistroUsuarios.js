@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
-import {  Header,  Titulo,  ContenedorHeader,  ContenedorBotones} from "./../elementos/Header";
+import {  Header,  Titulo,  ContenedorHeader} from "./../elementos/Header";
 import Boton from "./../elementos/Boton";
 import {
   ContenedorFiltros,

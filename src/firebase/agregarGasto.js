@@ -6,7 +6,7 @@ const agregarGasto =async ({categoria,descripcion,valor,fecha,uidUsuario})=>{
   return  await addDoc(collection(db, "gastos"), {
         categoria:categoria,
         descripcion:descripcion,
-        valor:valor,
+        valor:Number(valor),
         fecha:fecha,
         uidUsuario:uidUsuario
         })

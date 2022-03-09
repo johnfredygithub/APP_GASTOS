@@ -12,7 +12,7 @@ import SelectCategorias from "./SelectCategorias";
 import DatePicker from "./DatePicker";
 import agregarGasto from "../firebase/agregarGasto";
 import getUnixTime from 'date-fns/getUnixTime';
-import fromUnixTime from 'date-fns/fromUnixTime';
+//import fromUnixTime from 'date-fns/fromUnixTime';
 import { useAuth } from "../contextos/AuthContext";
 import Alerta from "../elementos/Alerta";
 
