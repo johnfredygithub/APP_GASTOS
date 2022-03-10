@@ -5,9 +5,12 @@ import BtnRegresar from './../elementos/BtnRegresar';
 import BarraTotalGastos from './BarraTotalGastos';
 import FormularioGasto from './FormularioGasto';
 import { useParams } from 'react-router-dom';
+import useObtenerUnGasto from '../hooks/useObtenerUnGasto';
+
 
 const EditarGasto = () => {
     const {id}=useParams();
+    const [gasto]=useObtenerUnGasto(id);
     
      return (         
     <>
@@ -15,12 +18,11 @@ const EditarGasto = () => {
         <title> EDITAR GASTO</title>
       </Helmet>
       <Header>
-          <BtnRegresar></BtnRegresar>
+          <BtnRegresar  ruta="/lista"></BtnRegresar>
           <Titulo>EDITAR GASTO</Titulo>
         </Header>
         
-    <FormularioGasto>
-
+    <FormularioGasto gasto={gasto}>
 </FormularioGasto>
     <BarraTotalGastos/>
     </>
