@@ -1,7 +1,7 @@
 const FormatearCantidad = (valor) => {
     return new Intl.NumberFormat(
-        'en-US',
-        {styled:'currency',currency:'USD' , minimumFractionDigits:3}
+        'es-CO',
+        {styled:'currency',currency:'COP' , minimumFractionDigits:0}
     ).format(valor );
 }
  
