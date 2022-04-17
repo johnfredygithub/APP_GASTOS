@@ -11,7 +11,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-![](https://github.com/johnfredygithub%20APP_LISTA_DE_GASTOS%20blob%20main%20src%20imagenes%20borrar.svg)
+https://user-images.githubusercontent.com/72414786/163735480-5c389add-2d9f-4a97-a2f6-62cdef80af94.mp4
 
 
 
