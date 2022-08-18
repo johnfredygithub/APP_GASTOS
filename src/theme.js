@@ -7,7 +7,8 @@ const theme = {
     grisClaro: '#E8EFF1',
     grisClaro2: '#CBDDE2',
     azulClaro: '#8792F1',
-    fondo_contenedor:'#90a7bfc7'
+    fondo_contenedor:'#90a7bfc7',
+    fondo_contenedor2:'#90a7bfc7'
 }
 
 export default theme;
