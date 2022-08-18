@@ -41,12 +41,13 @@ const Formulario = styled.form`
 `;
 
 const Input = styled.input`
+  margin-bottom:5px;
   font-size: 2.0rem; /* 40px */
   text-transform: uppercase;
   border: none;
   border-bottom: 2px solid ${theme.grisClaro};
   outline: none;
-
+  border-radius:0.625rem;
   @media (max-width: 60rem) {
     /* 950px */
     font-size: 2.2rem; /* 24px */
@@ -56,6 +57,7 @@ const Input = styled.input`
 const InputGrande = styled(Input)`
   font-size: 3.37rem; /* 70px */
   font-weight: bold;
+   border-radius:0.625rem; 
 `;
 
 const ContenedorBoton = styled.div`

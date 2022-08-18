@@ -58,7 +58,7 @@ const handleChange = (e) => {
         mensaje:"INGRESE UN CORREO VALIDO"
       });
       return;
-    }
+    }  
 
     if (correo === "" || password === "" ) {
       cambiarEstadoAlerta(true)

@@ -1,8 +1,8 @@
 import styled from "styled-components";
-
+import theme from "../theme";
 const Contenedor = styled.div`
-  background: #fff;
-  width: 90%;
+  background: ${theme.fondo_contenedor};
+  width: 100%;
   max-width: 70rem; /*1110px*/
   height: 90vh;
   max-height: 60rem; /* 80px */

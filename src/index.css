@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +11,7 @@
 }
 
 body {
-  background: #F9F9F9;
+  background:RGB(106, 132, 101);
   min-height: 100vh;
   display: flex;
   align-items: center;
