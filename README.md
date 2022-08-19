@@ -1,5 +1,8 @@
 # APP LISTA DE GASTOS REACT JS Y FIREBASE 9.6.6
-https://user-images.githubusercontent.com/72414786/185527934-363ec4d9-56be-4653-8d79-6556c02f8006.mp4
+<video src="https://user-images.githubusercontent.com/72414786/185527934-363ec4d9-56be-4653-8d79-6556c02f8006.mp4" data-canonical-src="https://user-images.githubusercontent.com/72414786/185527934-363ec4d9-56be-4653-8d79-6556c02f8006.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px;">
+
+  </video>
+
 
 # Getting Started with Create React App
 
