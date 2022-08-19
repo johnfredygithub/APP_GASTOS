@@ -1,4 +1,4 @@
-# APP LISTA DE GASTOS REACT JS Y FIREBASE
+# APP LISTA DE GASTOS REACT JS Y FIREBASE 9.6.6
 https://user-images.githubusercontent.com/72414786/185527934-363ec4d9-56be-4653-8d79-6556c02f8006.mp4
 
 # Getting Started with Create React App
@@ -75,4 +75,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+CREDITOS A:
+Curso De React De (FalconMasters),
+https://firebase.google.com/docs/web/setup
 
